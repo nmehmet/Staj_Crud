@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Proje.EntityFramework.Models.Requests
+{
+    public class ProductRequest : BaseRequest
+    {
+        public int Stock {  get; set; }
+        public int SubGroupId { get; set; }
+        public string? Brand { get; set; }
+
+    }
+}
